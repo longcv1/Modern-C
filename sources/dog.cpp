@@ -1,4 +1,4 @@
-#include "../include/dog.h"
+#include "../headers/dog.hpp"
 #include <iostream>
 
 Dog::~Dog()

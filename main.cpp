@@ -1,12 +1,9 @@
 #include <iostream>
 #include <memory>
-#include "src/include/dog.h"
+#include "headers/dog.hpp"
 
 int main(int, char**){
     std::cout << "Welcome to Modern C++ in advanced!\n";
-    Dog d("ABC");
-    d.printInfo();
-    std::unique_ptr<Dog> d2 = std::make_unique<Dog>();
-    d2->setName("NEW NAME");
-    d2->printInfo();
+    Dog *d1 = new Dog("DOG 01");
+    d1->printInfo();
 }
