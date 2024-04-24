@@ -1,5 +1,5 @@
-cmake_minimum_required(VERSION 3.0.0)
-project(MyApp VERSION 0.1.0 LANGUAGES C CXX)
+cmake_minimum_required(VERSION 3.5)
+project(MyApp VERSION 0.1.0 LANGUAGES CXX)
 
 # Not recommended
 #file(GLOBAL_RECURSE SOURCE_FILE src/*.cpp)

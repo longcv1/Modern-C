@@ -16,5 +16,7 @@ int main(int, char**){
     std::cout << "Welcome to Modern C++ in advanced!\n";
     Dog *d1 = new Dog("DOG 01");
     d1->printInfo();
+    Dog *d2 = new Dog("DOG 02");
+    d2->printInfo();
     fnTypeDeduction();
 }

@@ -32,4 +32,8 @@
 *.app
 
 /build
+/CMakeFiles
 .vscode
+build.ninja
+cmake_install.cmake
+CMakeCache.txt
